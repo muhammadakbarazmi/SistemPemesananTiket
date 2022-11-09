@@ -12,7 +12,7 @@
                     <div class="col-lg-8 offset-lg-2">
                         <div class="section-heading">
                             <h6>Tiket Wisata</h6>
-                            <h2>Wisata Kuningan</h2>
+                            <h2>Wisata Bukit Tinggi</h2>
                         </div>
                         <div class="subscribe-content">
                             <div class="subscribe-form">
@@ -44,7 +44,7 @@
             <div class="row">
                 <div class="col-lg-12">
                     <div class="section-heading">
-                        <h6 style="color: green">Wisata Kuningan</h6>
+                        <h6 style="color: green">Wisata Bukit Tinggi</h6>
                         <h2 style="color: black">Daftar tiket yang dipesan</h2>
                         <hr>
                         @if(isset($tiket))

@@ -9,7 +9,7 @@
     <meta name="author" content="">
     <link href="https://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600,700,800,900&display=swap" rel="stylesheet">
 
-    <title>Wisata Kuningan</title>
+    <title>Wisata Bukit Tinggi</title>
 
     <!-- Additional CSS Files -->
     <link rel="stylesheet" type="text/css" href="{{ asset('pelanggan/assets/css/bootstrap.min.css') }}">
@@ -45,7 +45,7 @@
                     <nav class="main-nav">
                         <!-- ***** Logo Start ***** -->
                         <a href="index.html" class="logo">
-                            Wisata.Kuningan
+                            Wisata.BukitTinggi
                         </a>
                         <!-- ***** Logo End ***** -->
                         <!-- ***** Menu Start ***** -->
@@ -99,7 +99,7 @@
             <div class="img-fill">
                 <img src="pelanggan/assets/images/slide-01.jpg" alt="">
                 <div class="text-content">
-                  <h3>Selamat Datang di Wisata Kuningan</h3>
+                  <h3>Selamat Datang di Wisata Bukit Tinggi</h3>
                   <h5>Pemesanan Tiket Online</h5>
                   <a href="#" class="main-stroked-button">Lihat Wisata</a>
                   <a href="#" class="main-filled-button">Pesan Tiket</a>

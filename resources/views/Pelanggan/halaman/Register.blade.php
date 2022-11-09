@@ -13,7 +13,7 @@
                 <div class="col-lg-8 offset-lg-2">
                     <div class="section-heading">
                         <h6>Register Tiket Wisata</h6>
-                        <h2>Wisata Kuningan</h2>
+                        <h2>Wisata Bukit Tinggi</h2>
                     </div>
                     
                 </div>
@@ -40,7 +40,7 @@
 
                 <div class="col-lg-6 col-md-6 col-xs-12">
                     <div class="block-team-member-1 text-left rounded" style="border: 5px solid grey;">
-                        <center><h2>Wisata Kuningan</h2><h6>
+                        <center><h2>Wisata Bukit Tinggi</h2><h6>
                             
                         </center>
                     </div>

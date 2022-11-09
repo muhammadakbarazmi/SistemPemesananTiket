@@ -3,7 +3,7 @@
         <div class="sidebar-brand-text">
           <img src="" width="70">
         </div>
-        <div class="sidebar-brand-text">Wisata Kuningan</div>
+        <div class="sidebar-brand-text">Wisata Bukit Tinggi</div>
       </div>
       <hr class="sidebar-divider my-0">
 

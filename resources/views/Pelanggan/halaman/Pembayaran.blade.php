@@ -13,7 +13,7 @@
                 <div class="col-lg-8 offset-lg-2">
                     <div class="section-heading">
                         <h6>Pembayaran Tiket Wisata</h6>
-                        <h2>Wisata Kuningan</h2>
+                        <h2>Wisata Bukit Tinggi</h2>
                     </div>
                     <div class="subscribe-content">
                         <div class="subscribe-form">
@@ -174,7 +174,7 @@
                             <br></h6><hr>
                             <h6 style="color: green">Rekening BRI 1234567890</h6>
                             <h6 style="color: green">A / N</h6>
-                            <h6 style="color: green">Wisata Kuningan</h6><hr>
+                            <h6 style="color: green">Wisata Bukit Bukit Tinggi</h6><hr>
                             @if(isset($pemesanan))<h6>{{$pemesanan->tanggal_wisata}}</h6>@endif
                             <br>
                         </center>
