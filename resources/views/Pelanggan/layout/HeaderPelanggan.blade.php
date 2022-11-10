@@ -5,7 +5,7 @@
                 <div class="col-12">
                     <nav class="main-nav">
                         <!-- ***** Logo Start ***** -->
-                        <a href="index.html" class="logo">
+                        <a href="index.html " class="logo">
                             Wisata Bukit Tinggi
                         </a>
                         <!-- ***** Logo End ***** -->
@@ -23,12 +23,8 @@
                                     </ul>
                                 </li>   
                             @else
-                                <li class="scroll-to-section">
-                                    <a href="{{ url('/Login') }}">&emsp;&emsp;&emsp;&emsp; Masuk</a>
-                                </li>
-                                <div class="search-icon ">
-                                    <a href="#qwed" class="main-button">&nbsp; Buat Akun &nbsp;</a>
-                                </div>
+                                <li class="scroll-to-section"> <a href="{{ url('/Login') }}"> Masuk</a></li>
+                                <li class="scroll-to-section "><a href="{{ url('/admin/LoginAdmin')}}"> Admin</a></li>
                             @endif
                            
                         </ul>        

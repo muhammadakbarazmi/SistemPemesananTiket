@@ -299,7 +299,7 @@ a.text-button-icon:hover i {
   font-weight: 500;
   text-transform: uppercase;
   letter-spacing: 0.25px;
-  margin-top: 0px;
+  margin-top: 70px;
   margin-bottom: 0px;
 }
 
@@ -496,7 +496,7 @@ header
   display: block;
   background: #fff;
   color: #7a7a7a!important;
-  padding-left: 20px;
+  padding-left: 5px;
   height: 40px;
   line-height: 40px;
   -webkit-transition: all 0.3s ease 0s;
@@ -770,7 +770,8 @@ header
 banner
 --------------------------------------------- 
 */
-/* ==== Main CSS === */
+/* ==== 
+CSS === */
 .img-fill{
   width: 100%;
   display: block;
@@ -1069,7 +1070,7 @@ subscribe
 #subscribe p {
   text-align: center;
   font-size: 16px;
-  line-height: 27px;
+  line-height: 500px;
   color: #fff;
   margin-bottom: 40px;
 }
@@ -1080,10 +1081,13 @@ subscribe
   border-radius: 19px;
   border: 1px solid #fff;
   background-color: transparent;
-  padding: 0px 20px;
+  padding: 13px 25px;
   font-size: 13px;
   color: #fff;
   outline: none;
+  
+  
+
 }
 
 .subscribe-form ::-webkit-input-placeholder { /* Edge */
@@ -1098,7 +1102,7 @@ subscribe
   color: #fff;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 0px) {
   #subscribe fieldset {
     text-align: center;
     margin-bottom: 20px;

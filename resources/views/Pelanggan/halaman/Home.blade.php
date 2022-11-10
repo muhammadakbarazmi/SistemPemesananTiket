@@ -14,7 +14,7 @@
           <h3>Selamat Datang di Wisata Bukit Tinggi</h3>
           <h5>Pemesanan Tiket Online</h5>
           <a href="#testimonials" class="main-filled-button">Pesan Tiket</a>
-          <a href="#" class="main-stroked-button">Buat Akun</a>
+          <!-- <a href="#" class="main-stroked-button">Buat Akun</a> -->
         </div>
       </div>
     </div>
@@ -27,7 +27,7 @@
           <h3>Selamat Datang di Bukit Tinggi</h3>
           <h5>Pemesanan Tiket Online</h5>
           <a href="#testimonials" class="main-filled-button">Pesan Tiket</a>
-          <a href="#" class="main-stroked-button">Buat Akun</a>
+          <!-- <a href="#" class="main-stroked-button">Buat Akun</a> -->
         </div>
       </div>
     </div>

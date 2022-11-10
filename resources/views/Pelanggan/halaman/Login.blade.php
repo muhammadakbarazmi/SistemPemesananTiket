@@ -7,15 +7,12 @@
         <!-- ***** Features Big Item Start ***** -->
     <section class="section" id="subscribe">
         <div class="container header-text" id="top">
-            <hr>
-            <br>
             <div class="row">
                 <div class="col-lg-8 offset-lg-2">
                     <div class="section-heading">
                         <h6>Login Tiket Wisata</h6>
                         <h2>Wisata Bukit Tinggi</h2>
                     </div>
-                    
                 </div>
             </div>
         </div>

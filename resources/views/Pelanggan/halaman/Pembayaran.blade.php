@@ -7,8 +7,6 @@
         <!-- ***** Features Big Item Start ***** -->
     <section class="section" id="subscribe">
         <div class="container header-text" id="top">
-            <hr>
-            <br>
             <div class="row">
                 <div class="col-lg-8 offset-lg-2">
                     <div class="section-heading">
@@ -169,7 +167,7 @@
 
                 <div class="col-lg-6 col-md-6 col-xs-12">
                     <div class="block-team-member-1 text-left rounded" style="border: 5px solid grey;">
-                        <center><h2>Wisata Kuningan</h2><h6>
+                        <center><h2>Wisata Bukit Tinggi</h2><h6>
                             Transfer Bank
                             <br></h6><hr>
                             <h6 style="color: green">Rekening BRI 1234567890</h6>
