@@ -14,11 +14,10 @@
                             <li class="scroll-to-section"><a href="{{ url('/') }}" class="active">Home</a></li>
                             <li class="scroll-to-section"><a href="{{ url('/#testimonials') }}">Pemesanan</a></li>
                             <li class="scroll-to-section"><a href="{{ url('/Pembayaran') }}">Pembayaran</a></li>
-                            <li class="scroll-to-section"><a href="{{ url('/Tiket') }}">Tiket</a></li>
+                            <li class="scroll-to-section"><a href="{{ url('/Tiket') }}">Cetak Tiket</a></li>
                             @if (Session::get('loginPelanggan') == True)
                                 <li class="submenu"><a href="javascript:;">&emsp;&emsp; Selamat Datang, {{Session::get('nama_pelanggan')}}</a>
                                     <ul>
-                                        <li><a href="{{url('/Profil')}}">Profil</a></li>
                                         <li><a href="{{url('/Logout')}}">Logout</a></li>
                                     </ul>
                                 </li>   

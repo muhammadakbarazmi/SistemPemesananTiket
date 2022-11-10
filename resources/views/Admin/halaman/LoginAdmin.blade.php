@@ -8,7 +8,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="description" content="">
   <meta name="author" content="">
-  <link href="{{ asset('admin/img/logo/logo.png') }}" rel="icon">
+  <link href="{{ asset('admin/img/logo/logo2.png') }}" rel="icon">
   <title>Login Admin</title>
   <link href="{{ asset('admin/vendor/fontawesome-free/css/all.min.cs') }}s" rel="stylesheet" type="text/css">
   <link href="{{ asset('admin/vendor/bootstrap/css/bootstrap.min.css') }}" rel="stylesheet" type="text/css">

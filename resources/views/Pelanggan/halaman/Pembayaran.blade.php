@@ -170,7 +170,7 @@
                         <center><h2>Wisata Bukit Tinggi</h2><h6>
                             Transfer Bank
                             <br></h6><hr>
-                            <h6 style="color: green">Rekening BRI 1234567890</h6>
+                            <h6 style="color: green">Rekening BRI 057901030712507</h6>
                             <h6 style="color: green">A / N</h6>
                             <h6 style="color: green">Wisata Bukit Bukit Tinggi</h6><hr>
                             @if(isset($pemesanan))<h6>{{$pemesanan->tanggal_wisata}}</h6>@endif

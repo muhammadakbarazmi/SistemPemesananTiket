@@ -9,7 +9,7 @@
     <!-- Item -->
     <div class="item">
       <div class="img-fill">
-        <img src="pelanggan/assets/images/slide-01.jpg" alt="">
+        <img src="pelanggan/assets/images/G11.jpg" alt="">
         <div class="text-content">
           <h3>Selamat Datang di Wisata Bukit Tinggi</h3>
           <h5>Pemesanan Tiket Online</h5>
@@ -22,7 +22,7 @@
     <!-- Item -->
     <div class="item">
       <div class="img-fill">
-        <img src="pelanggan/assets/images/slide-02.jpg" alt="">
+        <img src="pelanggan/assets/images/g2.jpg" alt="">
         <div class="text-content">
           <h3>Selamat Datang di Bukit Tinggi</h3>
           <h5>Pemesanan Tiket Online</h5>

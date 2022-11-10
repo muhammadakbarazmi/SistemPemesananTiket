@@ -73,14 +73,14 @@ class MengelolaTempatWisataController extends Controller
 
    	public function edit($id) {
 
-        if(!Session::get('login')){
-            return redirect('LoginAdmin')->with('alert','Anda harus login dulu');
-        }
-        else{
+        // if(!Session::get('login')){
+        //     return redirect('admin/TambahTempatWisata')->with('alert','Anda harus login dulu');
+        // }
+        // else{
 
         	$datas = ModelTempatWisata::find($id);
         	return view('admin.halaman.ubah_data.UbahTempatWisata',compact('datas'));
-        }
+        // }
     }
 
     public function update($id, Request $request) {

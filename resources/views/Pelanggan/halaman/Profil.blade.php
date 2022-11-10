@@ -13,7 +13,7 @@
                 <div class="col-lg-8 offset-lg-2">
                     <div class="section-heading">
                         <h6>Profil Pelanggan</h6>
-                        <h2>Wisata Kuningan</h2>
+                        <h2>Wisata Bukit Tinggi</h2>
                     </div>
                     
                 </div>

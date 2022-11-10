@@ -51,7 +51,7 @@
                     @endif
 
                     </div>
-                    
+
                     <div class="form-group"> 
                         <input type="reset" class="btn btn-secondary"  value="Batal">
                         <input type="submit" class="btn btn-primary" value="Simpan">
