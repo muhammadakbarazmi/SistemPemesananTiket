@@ -18,7 +18,7 @@
                             @if (Session::get('loginPelanggan') == True)
                                 <li class="submenu"><a href="javascript:;">&emsp;&emsp;{{Session::get('nama_pelanggan')}}</a>
                                     <ul>
-                                    < <li><a href="{{url('/Profil')}}">Profil</a></li>
+                                        <li><a href="{{url('/Profil')}}">Profil</a></li>
                                         <li><a href="{{url('/Logout')}}">Logout</a></li>
                                     </ul>
                                 </li>   
