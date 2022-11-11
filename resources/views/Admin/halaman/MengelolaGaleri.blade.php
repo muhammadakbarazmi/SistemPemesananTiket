@@ -50,7 +50,7 @@
                             <img width="150px" src="{{ url('pelanggan/assets/images/galeri/'.$tampil->nama_foto) }}">
                         </td>
                         <td>
-                        <a href="/admin/UbahGaleri{{$tampil->id}}" class="btn btn-warning">
+                        <a href="/admin/UbahGaleri{{$tampil->id_wisata}}" class="btn btn-warning">
                             <i class="fas fa-pencil-alt"></i>
                           </a>
                           <a href="/admin/HapusGaleri{{$tampil->id}}" class="btn btn-danger" onclick="return confirm('Anda yakin mau menghapus item ini ?')">

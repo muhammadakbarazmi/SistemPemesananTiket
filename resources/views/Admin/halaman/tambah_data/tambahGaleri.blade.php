@@ -25,13 +25,13 @@
 
                     {{csrf_field()}}
 
-                    <div class="form-group">
-                      <select name = "nama_wisata" class="form-control">
-                        <option value="">Pilih Nama Wisata</option>
-                         @foreach($wisata as $tampil)
-                         <option value="{{$tampil->id}}">{{$tampil->nama_wisata}}</option>
-                         @endforeach
-                      </select>
+                      <div class="form-group">
+                        <select name = "nama_wisata" class="form-control">
+                          <option value="">Pilih Nama Wisata</option>
+                          @foreach($wisata as $tampil)
+                          <option value="{{$tampil->id}}">{{$tampil->nama_wisata}}</option>
+                          @endforeach
+                        </select>
 
                     @if ($errors->has('nama_wisata'))
                         <span class="text-danger"><p class="text-right">* {{ $errors->first('nama_wisata') }}</p></span>

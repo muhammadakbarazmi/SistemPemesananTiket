@@ -98,7 +98,7 @@
           </div>
           <h4 style="color: green">{{$wisata->nama_wisata}}</h4>
           <span style="color: black">Harga Tiket : @rupiah($wisata->harga)</span><br>
-          <span style="color: black">Tersedia : 200 tiket / belum bisa</span>
+          <span style="color: black">Tersedia : {{$wisata->maks_tiket}}</span>
         </div>
         <br><br>
       </div>
