@@ -68,6 +68,8 @@ Route::get('/admin/HapusTempatWisata{id}','MengelolaTempatWisataController@delet
 Route::get('/admin/MengelolaGaleri','MengelolaGaleriController@index');
 Route::get('/admin/TambahGaleri','MengelolaGaleriController@tambah');
 Route::post('/admin/AksiTambahGaleri','MengelolaGaleriController@store');
+Route::get('/admin/UbahGaleri{id}','MengelolaGaleriController@edit');
+Route::post('/admin/AksiUbahGaleri{id}','MengelolaGaleriController@update');
 Route::get('/admin/HapusGaleri{id}','MengelolaGaleriController@delete');
 
 Route::get('/admin/MengelolaPemesanan','MengelolaPemesananController@index');

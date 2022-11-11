@@ -21,7 +21,7 @@
                 </div>
                 <div class="card-body">
 
-                  <form enctype="multipart/form-data" class="contact-form-area contact-page-form contact-form text-left" action="/admin/AksiUbahGaleri{{$datas->nama_wisata}}" method="post">
+                  <form enctype="multipart/form-data" class="contact-form-area contact-page-form contact-form text-left" action="/admin/AksiUbahGaleri{{$datas->id}}" method="post">
 
                     {{csrf_field()}}
     
