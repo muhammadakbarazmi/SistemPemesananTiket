@@ -1647,7 +1647,8 @@ portfolio
   font-size: 13px;
 }
 #projects .filters-content .item img {
-  width: 100%;
+  padding: 100px;
+  width: 180%;
 }
 
 #projects {

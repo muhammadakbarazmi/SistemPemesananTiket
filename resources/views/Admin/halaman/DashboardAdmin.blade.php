@@ -23,48 +23,72 @@
           <!-- Documentation Link -->
           <div class="row">
             <div class="col-lg-12">
-              <h5>Akun</h5>
+              <h5>Data Informasi</h5>
             </div>
           </div>
 
           <div class="row mb-3">
-            <!-- New User Card Example -->
-            <div class="col-xl-3 col-md-6 mb-4">
-              <a href="{{url ('CrudAkunUser')}}" class="card-link">
-              <div class="card h-100">
-                <div class="card-body">
-                  <div class="row no-gutters align-items-center">
-                    <div class="col mr-2">
-                      <div class="text-xs font-weight-bold text-uppercase mb-1 text-gray-800">Data Users</div>
-                      <div class="h5 mb-0 mr-3 font-weight-bold text-gray-800">{{count($user)}}</div>
-                    </div>
-                    <div class="col-auto">
-                      <i class="fas fa-users fa-2x text-info"></i>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              </a>
-            </div>
-            
-            <!-- New User Card Example -->
-            <div class="col-xl-3 col-md-6 mb-4">
-              <a href="{{url ('CrudAkunAdmin')}}" class="card-link">
-              <div class="card h-100">
-                <div class="card-body">
-                  <div class="row no-gutters align-items-center">
-                    <div class="col mr-2">
-                      <div class="text-xs font-weight-bold text-uppercase mb-1 text-gray-800">Data Admin</div>
-                      <div class="h5 mb-0 mr-3 font-weight-bold text-gray-800">{{count($admin)}}</div>
-                    </div>
-                    <div class="col-auto">
-                      <i class="far fa-user fa-2x text-info"></i>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </a>
-            </div>
+          <div class="container-fluid">
+  <div class="row">
+    <div class="col-6 col-lg-3">
+      <div class="small-box bg-primary">
+        <div class="inner">
+         
 
+          <p>Tempat Wisata</p>
+          <h3>4</h3>
+        </div>
+        <div class="icon">
+          <i class="ion ion-bag"></i>
+        </div>
+        <a href="{{url ('admin/MengelolaTempatWisata')}}" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
+      </div>
+    </div>
+    <div class="col-6 col-lg-3">
+      <div class="small-box bg-info">
+        <div class="inner">
+         
+
+          <p>Galeri</p>
+          <h3>4</h3>
+        </div>
+        <div class="icon">
+          <i class="ion ion-pie-graph"></i>
+        </div>
+        <a href="{{url ('admin/MengelolaGaleri')}}" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
+      </div>
+    </div>
+    <div class="col-6 col-lg-3">
+      <div class="small-box bg-warning">
+        <div class="inner">
+         
+          <p>Pemesanan</p>
+          <h3>4</h3>
+        </div>
+        <div class="icon">
+          <i class="ion ion-person-add"></i>
+        </div>
+        <a href="{{url ('admin/MengelolaPemesanan')}}" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
+      </div>
+    </div>
+
+    <div class="col-6 col-lg-3">
+      <div class="small-box bg-success">
+        <div class="inner">
+          
+
+          <p>Pembayaran</p>
+          <h3>2</h3>
+
+        </div>
+        <div class="icon">
+          <i class="ion ion-stats-bars"></i>
+        </div>
+        <a href="{{url ('admin/MengelolaPembayaran')}}" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
+      </div>
+    </div>
+  </div>
+  <!-- table produk baru -->
+ 
         <!---Container Fluid-->
 @endsection
