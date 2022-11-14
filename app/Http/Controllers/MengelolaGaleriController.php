@@ -11,27 +11,27 @@ class MengelolaGaleriController extends Controller
 {
         public function index()     {  
 
-        if(!Session::get('LoginAdmin')){
-            return redirect('admin/LoginAdmin')->with('alert','Anda harus login dulu');
-        }
-        else{
+        // if(!Session::get('LoginAdmin')){
+        //     return redirect('admin/LoginAdmin')->with('alert','Anda harus login dulu');
+        // }
+        // else{
 
         $datas = ModelGaleri::get();         
         	return view('admin.halaman.MengelolaGaleri',compact('datas'));     
-        }  
+        // }  
     }
 
     public function tambah() {
 
-        if(!Session::get('LoginAdmin')){
-            return redirect('admin/LoginAdmin')->with('alert','Anda harus login dulu');
-        }
-        else{
+        // if(!Session::get('LoginAdmin')){
+        //     return redirect('admin/LoginAdmin')->with('alert','Anda harus login dulu');
+        // }
+        // else{
 		
             $wisata = ModelTempatWisata::get();         
 
         	return view('admin.halaman.tambah_data.TambahGaleri',compact('wisata'));
-        }
+        // }
     }
 
     public function store( Request $request) {
@@ -70,14 +70,14 @@ class MengelolaGaleriController extends Controller
 
    	public function edit($id) {
 
-        if(!Session::get('LoginAdmin')){
-            return redirect('admin/LoginAdmin')->with('alert','Anda harus login dulu');
-        }
-        else{
+        // if(!Session::get('LoginAdmin')){
+        //     return redirect('admin/LoginAdmin')->with('alert','Anda harus login dulu');
+        // }
+        // else{
 
         	$datas = ModelGaleri::find($id);
         	return view('admin.halaman.ubah_data.UbahGaleri',compact('datas'));
-        }
+        // }
     }
 
     public function update($id, Request $request) {
@@ -100,7 +100,7 @@ class MengelolaGaleriController extends Controller
             'foto' => 'required|image|max:2048'
         ], $messages);
 
-        $datas = ModelTempatWisata::find($id_wisata);
+        $datas = ModelTempatWisata::find(id_wisata);
 
         if (empty($request->nama_wisata)){
             $datas->nama_wisata = $datas->nama_wisata;

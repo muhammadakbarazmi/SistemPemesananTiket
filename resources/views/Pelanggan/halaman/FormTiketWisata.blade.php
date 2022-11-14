@@ -65,7 +65,7 @@
                         <input type="date" class="form-control" name="tanggal_wisata" placeholder="Pilih Tanggal Wisata" onfocus="this.placeholder = ''"
                                      onblur="this.placeholder = 'Pilih Tanggal Wisata'">
                         @if ($errors->has('tanggal_wisata'))
-                          <span class="text-danger"><p class="text-right">* {{$errors->first('tanggal_wisata') }}</p></span>
+                          <span class="text-danger"><p class="text-right">*ju {{$errors->first('tanggal_wisata') }}</p></span>
                         @endif
 
                     <label><strong>Jumlah Tiket : </strong></label>

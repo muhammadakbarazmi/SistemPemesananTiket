@@ -75,7 +75,7 @@
 
             </div>
             <div class="row">
-                <h2>Riwayat Wisata</h2>
+                <h2>Riwayat Transaksi</h2>
                 
             </div>
             <hr>
@@ -114,6 +114,7 @@
                                         @elseif ($tampil->status_pesan == '5')
                                               <span class="badge badge-danger">Dibatalkan</span>
                                         @endif   
+                                
                             </td>  
                         </tr>
                         @endforeach

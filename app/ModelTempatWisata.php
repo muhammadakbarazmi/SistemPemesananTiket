@@ -13,7 +13,7 @@ class ModelTempatWisata extends Model
     							'alamat',
                                 'maks_tiket']; //field tabel
 
-    public function Galeri() { // 1 praktik memiliki banyak jadwal
-        return $this->hasMany(ModelGaleri::class,'id_wisata');
+    public function Galeri() { // Galeri memiliki banyak foto
+                return $this->hasMany(ModelGaleri::class,'id_wisata');
     }
 }

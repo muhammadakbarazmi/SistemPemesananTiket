@@ -11,10 +11,10 @@
                         <!-- ***** Logo End ***** -->
                         <!-- ***** Menu Start ***** -->
                         <ul class="nav">
-                            <li class="scroll-to-section"><a href="{{ url('/') }}" class="active">Home</a></li>
-                            <li class="scroll-to-section"><a href="{{ url('/#testimonials') }}">Pemesanan</a></li>
-                            <li class="scroll-to-section"><a href="{{ url('/Pembayaran') }}">Pembayaran</a></li>
-                            <li class="scroll-to-section"><a href="{{ url('/Tiket') }}">Cetak Tiket</a></li>
+                            <li class="scroll-to-section"><a href="{{ url('/') }}" class=>Home</a></li>
+                            <li class="scroll-to-section"><a href="{{ url('/#testimonials') }}"class=>Pemesanan</a></li>
+                            <li class="scroll-to-section"><a href="{{ url('/Pembayaran') }}"class=>Pembayaran</a></li>
+                            <li class="scroll-to-section"><a href="{{ url('/Tiket') }}"class=>Cetak Tiket</a></li>
                             @if (Session::get('loginPelanggan') == True)
                                 <li class="submenu"><a href="javascript:;">&emsp;&emsp;{{Session::get('nama_pelanggan')}}</a>
                                     <ul>

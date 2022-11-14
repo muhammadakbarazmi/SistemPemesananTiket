@@ -12,7 +12,12 @@ use Carbon\Carbon;
 class PemesananController extends Controller
 {
     public function index($id)     {  
-
+ 
+        if(!Session::get('loginPelanggan')){
+            return redirect('/Login')->with('alert','Anda harus login dulu');
+       }
+        else{
+      
         $tgl = Carbon::now()->format('Y-m-d');
         $jumlahtiket = ModelTiket::where('tanggal_wisata',$tgl)
         ->where('id_wisata',$id)
@@ -24,7 +29,7 @@ class PemesananController extends Controller
       
         return view('Pelanggan.halaman.FormTiketWisata',compact('wisata','sisaTiket'));     
     }
-
+}
     public function store( Request $request) {
 
         $messages = [

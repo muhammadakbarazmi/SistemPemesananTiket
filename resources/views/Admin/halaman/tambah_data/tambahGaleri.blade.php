@@ -34,7 +34,7 @@
                         </select>
 
                     @if ($errors->has('nama_wisata'))
-                        <span class="text-danger"><p class="text-right">* {{ $errors->first('nama_wisata') }}</p></span>
+                        <span class="text-danger"><p class="text-right">*{{ $errors->first('nama_wisata') }}</p></span>
                     @endif
 
                     </div>

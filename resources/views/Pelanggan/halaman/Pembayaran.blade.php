@@ -45,10 +45,13 @@
                     {{Session::get('alert-danger')}}
                 </div>
             @endif
+
+
             <div class="row">
                 <div class="form-group col-lg-6 col-md-6 col-xs-12">
 
                     <table width="400px" height="150px">
+                        
                         <tr>
                             <td>Id Pemesanan</td>
                             <td>:</td>
@@ -156,8 +159,10 @@
                                 <p><strong>Status Pesan : </Strong> <span class="badge badge-danger">Dibatalkan</span> </p>
                             @endif
                         @endif
+         
                                             
                     @endif
+
                     <label></label>
                    
                 </div>

@@ -21,17 +21,29 @@
                 </div>
                 <div class="card-body">
 
-                  <form enctype="multipart/form-data" class="contact-form-area contact-page-form contact-form text-left" action="/admin/AksiUbahGaleri{{$datas->id}}" method="post">
+                  <form enctype="multipart/form-data" class="contact-form-area contact-page-form contact-form text-left" action="/admin/AksiUbahGaleri{{$datas->TempatWisata->id_wisata}}" method="post">
 
                     {{csrf_field()}}
-    
+
+                    <!-- <div class="form-group">
+                        <select name = "nama_wisata" class="form-control">
+                          <option value="">Pilih Nama Wisata</option>
+                          @foreach($datas as $tampil)
+                          <option value="{{$datas->id}}">{{$datas->nama_wisata}}</option>
+                          @endforeach
+                        </select> -->
+
+                        <!-- <div class="form-group">
+                      <label><b>Nama Wisata</b></label>
+                      <input type="text" class="form-control" name="nama_wisata" placeholder="Masukkan Nama Wisata" value="{{$datas->id_wisata}}"> -->
                       <div class="form-group">
                       <select name = "nama_wisata" class="form-control">
-                      <label><b>nama wisata</b></label>  
-                         @foreach($datas as $tampil)
-                         <span value="{{$datas->nama_wisata}}">{{$datas->nama_wisata}}</span>
+                      <option><b></b></option>  
+                         @foreach($datas as $wisata)
+                         <span value="{{$datas->id_wisata}}">{{$datas->nama_wisata}}</span>
                          @endforeach
                       </select>
+
                     
                     @if ($errors->has('nama_wisata'))
                         <span class="text-danger"><p class="text-right">* {{ $errors->first('nama_wisata') }}</p></span>

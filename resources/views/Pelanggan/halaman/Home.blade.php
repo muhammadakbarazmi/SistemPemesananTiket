@@ -13,7 +13,7 @@
         <div class="text-content">
           <h3>Selamat Datang di Wisata Bukit Tinggi</h3>
           <h5>Pemesanan Tiket Online</h5>
-          <a href="#testimonials" class="main-filled-button">Pesan Tiket</a>
+          <a href="#testimonials" class="main-filled-button">Click</a>
           <!-- <a href="#" class="main-stroked-button">Buat Akun</a> -->
         </div>
       </div>
@@ -26,7 +26,7 @@
         <div class="text-content">
           <h3>Selamat Datang di Bukit Tinggi</h3>
           <h5>Pemesanan Tiket Online</h5>
-          <a href="#testimonials" class="main-filled-button">Pesan Tiket</a>
+          <a href="#testimonials" class="main-filled-button">Click</a>
           <!-- <a href="#" class="main-stroked-button">Buat Akun</a> -->
         </div>
       </div>
@@ -37,8 +37,7 @@
 <div class="scroll-down scroll-to-section"><a href="#projects"><i class="fa fa-arrow-down"></i></a></div>
 <!-- ***** Main Banner Area End ***** -->
 
-
-<!-- ***** Projects Area Starts ***** -->
+<!-- ** Projects Area Starts ** -->
 <section class="section" id="projects">
   <div class="container">
     <div class="row">
@@ -92,7 +91,7 @@
             <img src="{{ url('pelanggan/assets/images/fotowisata/'.$wisata->foto) }}" height="400" width="350" alt="">
             <div class="hover-effect">
               <div class="hover-content">
-                <a href="/FormTiketWisata{{$wisata->id}}" class="main-filled-button">Pesan Tiket</a>
+              <a href="/FormTiketWisata{{$wisata->id}}" class="main-filled-button">Pesan Tiket</a>
               </div>
             </div>
           </div>
